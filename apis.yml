@@ -1,8 +1,25 @@
 aid: snapfinger
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/snapfinger.png
 name: Snapfinger
-description: 'Snapfinger is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Snapfinger was an online and mobile food-ordering platform that let diners
+  browse menus and place takeout and delivery orders across a network of restaurant
+  brands. The snapfinger.com domain now 301-redirects to Tillster, the restaurant-commerce
+  company (ordering, kiosk, loyalty, menu, and data solutions for 40,000+ restaurants),
+  so Snapfinger operates today as a defunct brand absorbed into Tillster. No public
+  API, developer portal, OpenAPI specification, or SDK surface is published under the
+  Snapfinger name. It remains in the API Evangelist network as a Norwest Venture Partners
+  portfolio lead pending any future developer surface.'
 url: https://raw.githubusercontent.com/api-evangelist/snapfinger/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +27,18 @@ x-backed-by:
 - norwest-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct-brand
+x-successor: tillster
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- Restaurant Technology
+- Food Ordering
+- Online Ordering
+- Restaurants
+- Takeout and Delivery
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/snapfinger-domain-security.yml
 - type: Website
   url: https://snapfinger.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
