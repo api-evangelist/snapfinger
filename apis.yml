@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://snapfinger.com', status: 301, note: 'declared website redirects to https://www.tillster.com/ — a different registrable domain (snapfinger.com -> tillster.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/snapfinger.png
 name: Snapfinger
 description: 'Snapfinger was an online and mobile food-ordering platform that let diners
