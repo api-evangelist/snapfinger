@@ -44,7 +44,7 @@ x-status: defunct-brand
 x-successor: tillster
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 tags:
 - Company
 - Restaurant Technology
@@ -66,6 +66,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://www.tillster.com/blog
+  type: Blog
 - type: DomainSecurity
   url: security/snapfinger-domain-security.yml
 - type: Website
